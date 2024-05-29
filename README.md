@@ -9,3 +9,7 @@ sub.py->test.py,dev.pyを実行します。
 dev.py->pyautoguiを用いてcopilotに説明させます。
 
 
+
+
+コードを個人でいじる上の備忘録------------
+pyautoguiは一部キー＠などが`などとして出力されます。これは、pyautoguiがUS配列のみに対応していることが原因です。今回はpyautogui.copyで＠を出力させました。気を付けてください。
